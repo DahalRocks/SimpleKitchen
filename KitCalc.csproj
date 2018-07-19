@@ -1,0 +1,256 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62421242-AD20-4A5F-BE01-6D270086CF0F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KitCalc</RootNamespace>
+    <AssemblyName>KitCalc</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\asc.png" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\blank.gif" />
+    <Content Include="images\calendar.gif" />
+    <Content Include="images\desc.png" />
+    <Content Include="images\fancybox_loading.gif" />
+    <Content Include="images\fancybox_overlay.png" />
+    <Content Include="images\fancybox_sprite.png" />
+    <Content Include="images\icons\adduser.png" />
+    <Content Include="images\icons\editicon.png" />
+    <Content Include="images\icons\expenses.png" />
+    <Content Include="images\icons\removeuser.png" />
+    <Content Include="images\icons\reporticon.png" />
+    <Content Include="images\icons\Settings-icon.png" />
+    <Content Include="images\icons\transactionicon.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\overlay.png" />
+    <Content Include="images\previous.png" />
+    <Content Include="images\snext.png" />
+    <Content Include="images\sprevious.png" />
+    <Content Include="images\testimages\blank.gif" />
+    <Content Include="images\testimages\bodyBg.jpg" />
+    <Content Include="images\testimages\cal.jpg" />
+    <Content Include="images\testimages\contactsBg.jpg" />
+    <Content Include="images\testimages\footbg.jpg" />
+    <Content Include="images\testimages\headBg.jpg" />
+    <Content Include="images\testimages\icon.ico" />
+    <Content Include="images\testimages\leftCurve.jpg" />
+    <Content Include="images\testimages\listbg.jpg" />
+    <Content Include="images\testimages\listStyle.jpg" />
+    <Content Include="images\testimages\loginBg.jpg" />
+    <Content Include="images\testimages\logo.png" />
+    <Content Include="images\testimages\mBlank.jpg" />
+    <Content Include="images\testimages\menuHL.jpg" />
+    <Content Include="images\testimages\menuHR.jpg" />
+    <Content Include="images\testimages\pic1.jpg" />
+    <Content Include="images\testimages\pic2.jpg" />
+    <Content Include="images\testimages\pic3.jpg" />
+    <Content Include="images\testimages\pic4.jpg" />
+    <Content Include="images\testimages\quo.jpg" />
+    <Content Include="images\testimages\read.jpg" />
+    <Content Include="images\testimages\rightCurve.jpg" />
+    <Content Include="images\testimages\rigthBg.jpg" />
+    <Content Include="images\testimages\testimIco.jpg" />
+    <Content Include="images\testimages\validationBg.jpg" />
+    <Content Include="JavaScript\jquery.js" />
+    <Content Include="JavaScript\jquery.simplePagination.js" />
+    <Content Include="JavaScript\jquery.tablesorter.js" />
+    <Content Include="JavaScript\jquery.ui.datepicker.js" />
+    <Content Include="JavaScript\json.js" />
+    <Content Include="JavaScript\json2.js" />
+    <Content Include="ProgramFiles\Expenses.aspx" />
+    <Content Include="ProgramFiles\Home.aspx" />
+    <Content Include="ProgramFiles\Login.aspx" />
+    <Content Include="ProgramFiles\MainMenu.aspx" />
+    <Content Include="ProgramFiles\Report.aspx" />
+    <Content Include="ProgramFiles\Settings.aspx" />
+    <Content Include="ProgramFiles\Signup.aspx" />
+    <Content Include="ProgramFiles\Transaction.aspx" />
+    <Content Include="StyleSheet\jquery.fancybox.css" />
+    <Content Include="StyleSheet\jquery.ui.datepicker.css" />
+    <Content Include="StyleSheet\lightbox.css" />
+    <Content Include="StyleSheet\simple.css" />
+    <Content Include="StyleSheet\simplePagination.css" />
+    <Content Include="StyleSheet\Style.css" />
+    <Content Include="StyleSheet\tablesorter.css" />
+    <Content Include="StyleSheet\template.css" />
+    <Content Include="StyleSheet\validation.css" />
+    <Content Include="StyleSheet\validationEngine.css" />
+    <Content Include="testpage.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebService\WebService1.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFiles\Classes\Attribute.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFiles\Classes\FinalTransaction.cs" />
+    <Compile Include="ProgramFiles\Classes\PaidBy.cs" />
+    <Compile Include="ProgramFiles\Classes\PaidTo.cs" />
+    <Compile Include="ProgramFiles\Classes\Setting.cs" />
+    <Compile Include="ProgramFiles\Expenses.aspx.cs">
+      <DependentUpon>Expenses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramFiles\Expenses.aspx.designer.cs">
+      <DependentUpon>Expenses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFiles\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramFiles\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFiles\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramFiles\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFiles\Classes\Person.cs" />
+    <Compile Include="ProgramFiles\MainMenu.aspx.cs">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramFiles\MainMenu.aspx.designer.cs">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFiles\Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramFiles\Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFiles\Settings.aspx.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramFiles\Settings.aspx.designer.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFiles\Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramFiles\Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFiles\Transaction.aspx.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramFiles\Transaction.aspx.designer.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="testpage.aspx.cs">
+      <DependentUpon>testpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testpage.aspx.designer.cs">
+      <DependentUpon>testpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebService\WebService1.asmx.cs">
+      <DependentUpon>WebService1.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50825</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

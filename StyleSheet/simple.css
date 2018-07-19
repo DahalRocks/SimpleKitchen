@@ -1,0 +1,26 @@
+﻿.rowrapper
+{
+ color:black;
+ 
+}
+.errormessage
+{
+ color:Red;
+}
+.hidden
+{
+	visibility:hidden;
+}
+.required
+{
+ /*color:Red;*/
+}
+.mainrapperdiv
+{
+	position:absolute;
+    background-color:Maroon;
+    left:100px;
+    
+		
+}
+

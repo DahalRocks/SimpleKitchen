@@ -1,0 +1,117 @@
+﻿table.tablesorter {
+	font-size: 15px;
+	background-color: #F7F8FD;
+	width: 1200px;
+	height:auto;
+	border: 1px solid #FFFFD4;
+	border-radius:10px;
+	box-shadow: 5px 10px 5px rgb(136, 136, 136);
+	
+	
+	
+}
+table.tablesorter .icon
+{
+	background-image:url(../images/icons/Settings-icon.png);
+	width:40px;
+	height:40px;
+}
+table.tablesorter th {
+	text-align: left;
+	padding: 2px;
+	background-color: #007fff;/*#007fff*/
+	color:#FF7F2A;
+}
+table.tablesorter .totalexpenses {
+	text-align: left;
+	padding: 5px;
+	background-color: red;
+}
+table.addexpensestable td {
+	color: black;
+	width:50px;
+	height:20px;
+	padding: 2px;
+}
+table.tablesorter .even {
+	background-color: #EEEEEE;
+}
+table.tablesorter .odd {
+	background-color: #F9F9F9;
+}
+table.tablesorter .header {
+	background-image: ../images/bg.png;
+	background-repeat: no-repeat;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #000;
+	border-top: 1px solid #FFF;
+	padding-left: 30px;
+	padding-top: 8px;
+	height: auto;
+}
+table.tablesorter .headerSortUp {
+	background-image: ../images/asc.png;
+	background-repeat: no-repeat;
+}
+table.tablesorter .headerSortDown {
+	background-image: ../images/desc.png;
+	background-repeat: no-repeat;
+}
+table.tablesorter .errormessage
+{
+	color:Red;
+}
+#name 
+{
+	color:#266062;
+	font-size:large;
+	font-family:@Arial Unicode MS;
+
+}
+table.tablesorter .name
+{
+	color:#266062;
+	font-size:large;
+	font-family:@Arial Unicode MS;
+}
+table.tablesorter .textbox 
+{
+	width:200px;
+	height:20px;
+	border:solid 1px silver;
+	border-radius:10px;
+	box-shadow: 5px 10px 5px rgb(136, 136, 136);
+	
+}
+table.tablesorter .edittextbox 
+{
+	width:200px;
+	height:20px;
+	border:solid 1px black;
+	border-radius:10px;
+	box-shadow: 5px 10px 5px rgb(136, 136, 136);
+	background-color:#55AAFF;
+	
+}
+table.tablesorter .dropdown 
+{
+	width:200px;
+	height:20px;
+	border:solid 1px silver;
+	border-radius:10px;
+	box-shadow: 5px 10px 5px rgb(136, 136, 136);
+
+}
+.buttons
+{
+	border:solid 1px silver;
+	width:70px;
+	height:25px;
+	border-radius:10px;
+	box-shadow: 5px 10px 5px rgb(136, 136, 136);
+
+}
+em.required
+{
+	color:Red;
+}

@@ -1,0 +1,21 @@
+.popup{
+position: absolute;
+border: solid 1px silver;
+padding: 10px;
+background-color: black;
+width:auto;
+height: auto;
+border-radius: 20px;
+box-shadow: 5px 10px 5px rgb(136, 136, 136);
+}
+.popuptrigger{
+display: block;
+border: 1px solid gray;
+width: 65px;
+text-align: center;
+padding: 6px;
+border-radius: 5px;
+text-decoration: none;
+margin: 0 auto;
+box-shadow: 5px 10px 5px rgb(136, 136, 136);
+}
